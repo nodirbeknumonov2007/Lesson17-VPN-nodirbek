@@ -1,0 +1,83 @@
+#header{
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+.menus, .nav-btn{
+    display: none;
+}
+
+.menus ul li{
+    display: inline-block;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--black);
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 0 10px;
+}
+@media(max-width:800px){
+    .menus ul li{
+        margin: 0;
+        padding: 0;
+        display: block;
+    }
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+}
+.nav-btn{
+    margin-right: 20px;
+}
+.sign-in{
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--black);
+}
+.sign-up{
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 30px;
+    color: var(--red);
+    padding: 13px 30px;
+    border: 1px solid var(--red);
+    border-radius: 50px;
+    transition: 0.5s;
+}
+.sign-up:hover{
+    color: white;
+    background-color: var(--red);
+}
+.close{
+    position: absolute;
+    top: 50px;
+    right: 60px;
+}
+
+@media (min-width:600px){
+    .nav-btn{
+        display: block;
+    }
+}
+@media (min-width:800px){
+    .hamburger, .close{
+        display: none;
+    }
+    .menus, .nav-btn{
+        display: block;
+    }
+    .navbar{
+        padding: 50px;
+    }
+}
+@media (min-width:1024px){
+    .navbar{
+        padding: 50px 150px;
+    }
+}
+/* @media (min-width:930px) */

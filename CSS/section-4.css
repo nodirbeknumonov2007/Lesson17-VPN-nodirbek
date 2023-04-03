@@ -1,0 +1,46 @@
+.owl-carousel{
+    margin: 0 auto;
+    padding: 25px;
+    margin-top: 50px;
+
+}
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+    display: block !important;
+}
+.slide-container{
+    display: flex;
+    max-width: 1140px;
+    width: 100%;
+}
+.slide-card{
+
+    /* width: 1000px; */
+    padding: 30px;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    /* margin: 0 25px; */
+}
+.owl-carousel .owl-item img {
+    display: block;
+    width: auto !important;
+}
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.name-content{
+    display: flex;
+    align-items: center;
+}
+.name-txt{
+    margin-left: 20px;
+}
+.card-content{
+    margin-top: 20px;
+}
+.card-content p{
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 16px;
+}
